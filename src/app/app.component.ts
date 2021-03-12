@@ -7,9 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'git';
-  input: any;
 
-  display(): void {
-    alert(this.input);
-  }
 }
